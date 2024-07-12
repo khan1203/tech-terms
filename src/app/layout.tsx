@@ -18,13 +18,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="max-w-3xl mx-auto text-slate-800">
-          <header className="p-6 border-b flex justify-between bg-blue-500 roounded-bl-lg rounded-br-lg">
-            <Link className="text-white text-2xl font-bold" href={"/"}>
-              Tech Terms Interpretation
-            </Link>
+        <div className="max-w-3xl mx-auto text-slate-900 mt-1 sticky">
+          <header className="p-6 border-b flex items-center justify-between bg-blue-500 rounded-lg rounded-br-lg">
+            <div>
+              <Link className="text-white text-2xl font-bold" href={"/"}>
+                Tech Terms
+              </Link>
+              <p className="text-white text-xs px-1">Interpretation of the technology related terminology</p>
+            </div>
             <Link
-              className="bg-slate-100 grid place-items-center py-2 pz-4 rounded-full font-bold shadow-md"
+              className="bg-slate-100 grid place-items-center py-2 px-4 rounded-full font-bold shadow-md"
               href={"/create"}
             >
               Add New
