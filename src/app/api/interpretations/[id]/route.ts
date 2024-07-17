@@ -52,8 +52,10 @@ async function updateInterpretation(
   }
 }
 
-// CRUD functions
+// CRUD functions-----------------------------------
 
+
+// For Fetch
 export async function GET(
   req: Request,
   { params }: { params: { id: string } }
@@ -72,6 +74,7 @@ export async function GET(
   }
 }
 
+// For Delete
 export async function DELETE(
   req: Request,
   { params }: { params: { id: string } }
@@ -88,6 +91,7 @@ export async function DELETE(
   }
 }
 
+// For Update
 export async function PUT(
   req: Request,
   { params }: { params: { id: string } }
