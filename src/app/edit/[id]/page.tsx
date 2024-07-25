@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { ChangeEvent, useEffect, useState } from "react";
 
-export default function editPage({ params }: { params: { id: string } }) {
+export default function EditPage({ params }: { params: { id: string } }) {
   const [formData, setFormData] = useState({ term: "", interpretation: "" });
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
