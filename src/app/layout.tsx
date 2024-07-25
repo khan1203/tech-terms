@@ -25,7 +25,7 @@ export default function RootLayout({
                 Tech Terms
               </Link>
               <p className="text-white text-xs px-1">Interpretation of technology related terminology</p>
-              <p className="text-white text-xs px-1 py-1">Developed by <strong>Khan Muhammad Rifat</strong></p>
+              <p className="text-white text-xs px-1 py-1">Developed by <Link to="https://www.linkedin.com/in/khan1203"><strong>Khan Muhammad Rifat</strong></Link></p>
             </div>
             <Link
               className="bg-slate-100 grid place-items-center py-2 px-4 rounded-full font-bold shadow-md"
